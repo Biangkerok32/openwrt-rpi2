@@ -39,7 +39,7 @@ make image  PROFILE="rpi-2" \
                      kmod-usb-storage block-mount luci-app-minidlna kmod-fs-ext4 \
                      urngd usign vpn-policy-routing wg-installer-client wireguard-tools \
                      kmod-usb-core kmod-usb3 dnsmasq dropbear e2fsprogs \
-                     zlib firewall wireless-regdb f2fsck openssh-sftp-server \
+                     zlib reless-regdb f2fsck openssh-sftp-server \
                      kmod-usb-wdm kmod-usb-net-ipheth usbmuxd kmod-usb-net-asix-ax88179 \
                      kmod-usb-net-cdc-ether mount-utils kmod-rtl8xxxu kmod-rtl8187 \
                      kmod-rtl8xxxu rtl8188eu-firmware kmod-rtl8192ce kmod-rtl8192cu kmod-rtl8192de \
