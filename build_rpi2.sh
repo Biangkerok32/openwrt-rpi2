@@ -38,7 +38,7 @@ make image  PROFILE="rpi-2" \
                      openssh-sftp-server nano luci-app-ttyd kmod-fs-exfat \
                      kmod-usb-storage block-mount luci-app-minidlna kmod-fs-ext4 \
                      urngd usign vpn-policy-routing wg-installer-client wireguard-tools \
-                     kmod-usb-core kmod-usb3 dnsmasq dropbear e2fsprogs \
+                     kmod-usb-core kmod-usb3 firewall4 dnsmasq dropbear e2fsprogs \
                      zlib reless-regdb f2fsck openssh-sftp-server \
                      kmod-usb-wdm kmod-usb-net-ipheth usbmuxd kmod-usb-net-asix-ax88179 \
                      kmod-usb-net-cdc-ether mount-utils kmod-rtl8xxxu kmod-rtl8187 \
