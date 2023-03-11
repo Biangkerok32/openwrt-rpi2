@@ -1,10 +1,12 @@
 name: Build OpenWRT Images
-on: [push]
+
+on:
+  workflow_dispatch
 
 jobs:
     build:
         name: Prepare and build OpenWRT images
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-20.04
 
         steps:
             - name: Checkout
